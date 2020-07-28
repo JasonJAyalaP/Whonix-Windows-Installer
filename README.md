@@ -37,6 +37,6 @@ Your build folder should have at least:
 
 Optional: Open Whonix.iss and change AppVersion. Set Compression as desired (https://documentation.help/Inno-Setup/topic_setup_compression.htm)
 
-Open "MakeInstaller.bat" and wait for building to finish. The executable is in Output.
+Open *MakeInstaller.bat* and wait for building to finish. The executable is in Output.
 
-Note: If OVA becomes greater than 2GB, Inno Setup must be set to use DiskSpanning=Yes and output files combined into a self-extracting file.
+Note: If OVA becomes greater than 2GB, Whonix.iss must be set to use DiskSpanning=Yes. This will output an exe and .bin file. To combine, open *7zip/make self extract.bat*, which combines everything in Output into a 7z archive and then into a self-extracting-and-running exe.
