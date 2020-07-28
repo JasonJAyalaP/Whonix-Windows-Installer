@@ -29,7 +29,6 @@ Your build folder should have at least:
 
 * license.txt
 * logo.ico
-* MakeInstaller.bat
 * virtualbox_x64.msi
 * Whonix.exe
 * Whonix.iss
@@ -37,6 +36,6 @@ Your build folder should have at least:
 
 Optional: Open Whonix.iss and change AppVersion. Set Compression as desired (https://documentation.help/Inno-Setup/topic_setup_compression.htm)
 
-Open *MakeInstaller.bat* and wait for building to finish. The executable is in Output.
+Right-click Whonix.iss and select "Compile". The executable is in Output.
 
 Note: If OVA becomes greater than 2GB, Whonix.iss must be set to use DiskSpanning=Yes. This will output an exe and .bin file. To combine, open *7zip/make self extract.bat*, which combines everything in Output into a 7z archive and then into a self-extracting-and-running exe.
