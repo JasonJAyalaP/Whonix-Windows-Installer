@@ -4,22 +4,21 @@
 
 [Setup]
 AppName={#MyAppName}
-AppVersion=15.0.0.6.6
-DefaultDirName={pf}\{#MyAppName}
+AppVersion=15.0.1.3.4
+DefaultDirName={commonpf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 OutputBaseFilename=InstallWhonix
 UninstallDisplayIcon={app}\{#MyAppExeName}
 LicenseFile=license.txt
 SetupIconFile={#MyAppIcoName}
 AllowNoIcons=yes
-Compression=lzma2/max
+Compression=none
 ArchitecturesInstallIn64BitMode=x64
-DiskSpanning=yes
+DiskSpanning=no
 PrivilegesRequired=admin
 
 [Files]
 Source: "virtualbox_x64.msi"; DestDir: "{app}"; Check: Is64BitInstallMode
-Source: "common.cab"; DestDir: "{app}"
 Source: "Whonix.exe"; DestDir: "{app}"
 Source: "whonix.ova"; DestDir: "{tmp}"
 
