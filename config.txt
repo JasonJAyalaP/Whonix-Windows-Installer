@@ -1,6 +1,0 @@
-;!@Install@!UTF-8!
-Title="Whonix Installer"
-RunProgram="Output\InstallWhonix.exe"
-ExtractTitle="Extracting Whonix Installer"
-GUIMode="1"
-;!@InstallEnd@!
