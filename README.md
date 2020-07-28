@@ -38,4 +38,4 @@ Optional: Open Whonix.iss and change AppVersion. Set Compression as desired (htt
 
 Right-click Whonix.iss and select "Compile". The executable is in Output.
 
-Note: If OVA becomes greater than 2GB, Whonix.iss must be set to use DiskSpanning=Yes. This will output an exe and .bin file. To combine, open *7zip/make self extract.bat*, which combines everything in Output into a 7z archive and then into a self-extracting-and-running exe.
+Note: If OVA becomes greater than 2GB, Whonix.iss must be set to use DiskSpanning=Yes. This will output an exe and .bin file. To combine, add *7za.exe* and *7zSD.sfx* to the 7zip folder. Open *7zip/make self extract.bat*, which combines everything in Output into a 7z archive and then into a self-extracting-and-running exe. 
