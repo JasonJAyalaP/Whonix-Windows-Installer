@@ -27,7 +27,6 @@ VirtualBox[Characters based on your version].exe -extract
 
 Your build folder should have at least:
 
-* config.txt
 * license.txt
 * logo.ico
 * MakeInstaller.bat
