@@ -12,9 +12,8 @@ The Whonix Installer for Windows installs VirtualBox and imports the whonix OVAs
   * https://www.whonix.org/wiki/VirtualBox/XFCE
 * Download and install Inno Setup
   * http://www.jrsoftware.org/isdl.php
-* Download the Whonix-UI executable to the folder
-  * https://github.com/EgoBits1/Whonix-Windows-UI/releases/download/v1.0/Whonix.exe
-  * OR build from source: https://www.whonix.org/wiki/Building_Whonix-UI_for_Windows
+* Whonix-UI executable in the folder
+  * Built from source: https://www.whonix.org/wiki/Building_Whonix-UI_for_Windows
 * Download the newest "Windows hosts" VirtualBox installer to any location. 
   * https://www.virtualbox.org/wiki/Downloads
 * Navigate in the commandline to that location and run 
