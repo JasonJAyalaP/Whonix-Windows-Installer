@@ -10,7 +10,7 @@ The Whonix Installer for Windows installs VirtualBox and imports the whonix OVAs
   * https://github.com/Whonix/Whonix-Windows-Installer
 * Download the Whonix VirtualBox XFCE image to the folder and renamed it to "whonix.ova"
   * https://www.whonix.org/wiki/VirtualBox/XFCE
-* Download and install InnoSetup Unicode
+* Download and install Inno Setup
   * http://www.jrsoftware.org/isdl.php
 * Download the Whonix-UI executable to the folder
   * https://github.com/EgoBits1/Whonix-Windows-UI/releases/download/v1.0/Whonix.exe
@@ -35,4 +35,7 @@ Your build folder should have at least:
 * Whonix.iss
 * whonix.ova
 
+Optional: Open Whonix.iss and change AppVersion. Set Compression as desired (https://documentation.help/Inno-Setup/topic_setup_compression.htm)
 Open "MakeInstaller.bat" and wait for building to finish. The executable is in Output.
+
+Note: If OVA becomes greater than 2GB, Inno Setup must be set to use DiskSpanning=Yes and output files combined into a self-extracting file.
